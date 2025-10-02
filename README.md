@@ -1,6 +1,6 @@
 # Sistema de Nóminas API
 
-Una aplicación web completa para la gestión de nóminas empresariales con autenticación JWT, CRUD completo y interfaz moderna.
+Una aplicación web completa para la gestión de nóminas empresariales con autenticación JWT, CRUD completo y una interfaz moderna.
 
 ## 🚀 Características
 
@@ -81,7 +81,7 @@ nominas/
 
 1. **Instalar dependencias:**
    ```bash
-   npm install
+   npm install all
    ```
 
 2. **Configurar PostgreSQL:**
@@ -184,7 +184,7 @@ Las pruebas incluyen:
 
 El frontend incluye:
 
-- **Interfaz moderna** con CSS3 y animaciones
+- **Interfaz moderna** con CSS y animaciones
 - **Responsive design** para móviles y desktop
 - **Validaciones en tiempo real**
 - **Manejo de estados** (loading, errores, éxito)
