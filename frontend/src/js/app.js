@@ -1,5 +1,5 @@
 // frontend/app.js
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'http://localhost:3000/api/nominas';
 let token = localStorage.getItem('token');
 let currentUser = null;
 let currentPage = 1;
