@@ -15,6 +15,15 @@ const { authenticateToken } = require('../middleware/auth');
 // Esto asegura que solo usuarios con un token válido puedan acceder a ellas.
 router.use(authenticateToken);
 
+
+
+const { successResponse } = require('../utils/response');
+
+router.get('/', async (req, res) => {
+  const employees = await service.getAll();
+  successResponse(res, employees, 'Lista de empleados');
+});
+
 // Rutas para las nóminas
 router.get('/', getAllPayrolls);
 router.post('/', createPayroll);
